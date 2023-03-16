@@ -1,0 +1,140 @@
+.choose-currency {
+    padding: 1px;
+}
+
+.choose-currency .text-brand {
+    color: #006e85;
+}
+
+.choose-currency .container {
+    max-width: 768px;
+}
+
+.choose-currency .currency-card {
+    background-color: #fdfdf9;
+}
+
+.choose-currency .currency-card .title-1 {
+    color: #5c5c5c;
+    font-weight: 600;
+}
+
+.choose-currency .currency-card .title-2 {
+    color: #8c8b8b;
+    font-weight: 500;
+}
+
+.choose-currency .currency-card .title-2 strong {
+    color: #1d1c1c;
+    font-weight: 700;
+}
+
+.choose-currency .currency-card .current-rate {
+    background-color: #f6f8f9;
+    border-radius: 5px;
+}
+
+.choose-currency .currency-card .current-rate i,
+.choose-currency .currency-card .current-rate p {
+    margin-bottom: 0;
+    color: #b3b3b1;
+}
+
+.choose-currency .currency-card .current-rate p {
+    font-weight: 500;
+}
+
+.choose-currency .currency-card .panel {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.choose-currency .currency-card form p {
+    font-size: 20px;
+    color: #5c5c5c;
+    line-height: 1.5;
+}
+
+.choose-currency .currency-card .input-group {
+    max-width: 200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.choose-currency .currency-card .form-control,
+.choose-currency .currency-card .input-group-text {
+    border-radius: 0;
+    text-align: center;
+    border: transparent;
+    color: #5c5c5c;
+    font-size: 20px;
+}
+
+.choose-currency .currency-card .btn-submit {
+    color: #006e85;
+    font-weight: 600;
+    border: 2px solid #006e85;
+    border-radius: 0;
+    width: 100%;
+    max-width: 300px;
+    margin: 15px auto;
+    display: block;
+}
+
+.choose-currency .currency-card .btn-submit:hover {
+    background-color: #006e85;
+    color: #fff;
+}
+
+.choose-currency .currency-card .info {
+    color: #a4a3a3;
+}
+
+.choose-currency .currency-card .info i {
+    color: #ec7270;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .choose-currency .currency-card .title-1 {
+        font-size: 18px;
+    }
+
+    .choose-currency .currency-card .title-2 {
+        font-size: 15px;
+    }
+
+    .choose-currency .currency-card .current-rate p {
+        font-size: 14px;
+    }
+
+    .choose-currency .currency-card .qr-code {
+        max-width: 140px;
+        margin: auto;
+        display: block;
+    }
+
+    .choose-currency .currency-card form p {
+        font-size: 14px;
+    }
+
+    .choose-currency .currency-card .input-group {
+        max-width: 155px;
+    }
+
+    .choose-currency .currency-card .form-control,
+    .choose-currency .currency-card .input-group-text {
+        font-size: 16px;
+    }
+
+    .choose-currency .currency-card .btn-submit {
+        max-width: 200px;
+        font-size: 16px;
+    }
+
+    .choose-currency .currency-card .info {
+        font-size: 12px;
+    }
+}

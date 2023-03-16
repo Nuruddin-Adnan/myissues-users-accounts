@@ -1,0 +1,224 @@
+.account {
+    padding: 1px 0;
+}
+
+.account .text-brand {
+    color: #248296;
+}
+
+.account .heading-1 {
+    font-size: 18px;
+    color: #248296;
+    font-weight: 600;
+}
+
+.account .heading-2 {
+    font-size: 16px;
+    color: #3c4445;
+    font-weight: 600;
+}
+
+.account .heading-3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* tab menu start */
+.account .tab-menu .btn {
+    border: 2px solid #dbdbd9;
+    background-color: #f5f5f0;
+    border-radius: 0;
+    padding-block: 1rem;
+}
+
+.account .tab-menu .btn.active {
+    background-color: #fff;
+}
+
+.account .tab-menu .btn:hover {
+    background-color: #fff;
+}
+
+.account .tab-menu .btn span {
+    font-size: 18px;
+    color: #b2b1af;
+    font-weight: 600;
+    display: block;
+}
+
+/* end of tab menu */
+
+/* balance start */
+.balance {
+    box-shadow: 0px 0px 5.52px 0.48px rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding: 35px 20px 15px 20px;
+    margin-top: 50px;
+}
+
+.balance .icon {
+    box-shadow: 0px 0px 5.52px 0.48px rgba(0, 0, 0, 0.14);
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    left: 50%;
+    top: -35px;
+    transform: translateX(-50%);
+}
+
+.balance .text {
+    font-size: 26px;
+    color: #373a39;
+    font-weight: 700;
+}
+
+/* end of balance */
+
+/* account-withdrawal-methods start */
+.account-withdrawal-methods .accordion-button {
+    box-shadow: 0px 0px 9.2px 0.8px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    color: #248296;
+}
+
+.account-withdrawal-methods .accordion-button .icon-white {
+    display: none;
+}
+
+.account-withdrawal-methods .accordion-button.collapsed {
+    background-color: #eff3f6;
+}
+
+.account-withdrawal-methods .accordion-button:not(.collapsed) {
+    background-color: #248296;
+    color: #fff;
+}
+
+.account-withdrawal-methods .accordion-button:not(.collapsed) .heading-1 {
+    color: #fff;
+}
+
+.account-withdrawal-methods .accordion-button:not(.collapsed) .icon-color {
+    display: none;
+}
+
+.account-withdrawal-methods .accordion-button:not(.collapsed) .icon-white {
+    display: inline;
+}
+
+.account-withdrawal-methods .accordion-body .btn-check:checked+.btn {
+    background-color: #eff3f6;
+}
+
+.account-withdrawal-methods form .form-control {
+    background-color: #fdfdf9;
+    font-weight: 500;
+}
+
+.account-withdrawal-methods form label,
+.account-withdrawal-methods form .form-control::placeholder {
+    color: #aba8a8;
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.account-withdrawal-methods form .btn-submit {
+    background-color: #1f7f93;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* end of account-withdrawal-methods  */
+
+/* transactions start */
+.transactions .accordion-body p {
+    color: #a4a2a2;
+    font-size: 12px;
+}
+
+/* End of transactions */
+
+
+/*########### responsive ###########*/
+@media screen and (min-width: 768px) {
+    .account .heading-1 {
+        font-size: 24px;
+    }
+
+    .account .heading-2 {
+        font-size: 22px;
+    }
+
+    .account .heading-3 {
+        font-size: 18px;
+    }
+
+    .balance {
+        padding: 45px 20px 20px 20px;
+        margin-top: 60px;
+    }
+
+    .balance .icon {
+        top: -49px;
+        width: 98px;
+        height: 98px;
+
+    }
+
+    .balance .text {
+        font-size: 36px;
+    }
+
+    .account-withdrawal-methods form .form-control {
+        padding: .75rem .75rem;
+    }
+
+    .account-withdrawal-methods form label,
+    .account-withdrawal-methods form .form-control::placeholder {
+        font-size: 16px;
+    }
+
+    .account-withdrawal-methods form .btn-submit {
+        font-size: 20px;
+        padding: .5rem .75rem;
+    }
+
+    .transactions .accordion-body p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .account .tab-menu .btn {
+        padding: .5rem;
+    }
+
+    .account .tab-menu .btn span {
+        font-size: 12px;
+    }
+
+    .account-withdrawal-methods .accordion-button .icon-white,
+    .account-withdrawal-methods .accordion-button .icon-color {
+        width: 40px;
+        height: 40px;
+    }
+
+    .account-withdrawal-methods .choose-currency img {
+        width: 37px;
+        height: 37px;
+    }
+
+    .account-withdrawal-methods form label img {
+        width: 75%;
+    }
+
+}
